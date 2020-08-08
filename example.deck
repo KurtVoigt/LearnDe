@@ -1,0 +1,30 @@
+@
+Example of a .deck (Deck file format). This file format starts first with a section(for comments/descriptions) starting and ending with an @ on their own lines
+before going into individual cards which make up the deck.
+
+The card section is started and ended with a % sign on their own respective lines. Each card is started with the word "Card" and
+the name of the card (the name is optional and only for your organization, one can also simply type "Card").
+It is then followed by each of the card's attributes as shown below
+
+The end of file the contains a float between a -1 and 1 inclusive indicating its weight (make 0.0 for new decks)
+The list of cards may be as long as you like (within addressable memory at least) but for learning purposes you may want to
+keep it to around 20 words!
+Card Machen
+word = Machen, Machten, Haben gemacht
+translation = to do, to make
+sentence = Ich machte gestern meine Hausaufgaben.
+weight = 0.0
+@
+%
+Card Tun
+word = Tun, Taten, Haben getan
+translation = to do
+sentence = Was tust du da mit dem Hammer?
+weight = 1.0
+Card Machen
+word = Machen, Machten, Haben gemacht
+translation = to do, to make
+sentence = Ich machte gestern meine Hausaufgaben.
+weight = -1
+%
+0.1
