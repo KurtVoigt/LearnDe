@@ -108,23 +108,17 @@ class AVL_Tree():
 
 
 
-myTree = AVL_Tree() 
-root = None
+#myTree = AVL_Tree() 
+#root = None
 #testNode = card.Card("name","word", "translation", "sentence", 0.5)
 #print(testNode.cardObject.weight)
 #print(testNode.card.name)
 #testNode = Node(testCard)
-root = myTree.insert(root, card.Card("name","word", "translation", "sentence", 30))
-root = myTree.insert(root, card.Card("name","word", "translation", "sentence", 10))
-root = myTree.insert(root,  card.Card("name","word", "translation", "sentence", 60))
-root = myTree.insert(root, card.Card("name","word", "translation", "sentence", 50))
-root = myTree.insert(root, card.Card("name","word", "translation", "sentence", 65))
-root = myTree.insert(root,  card.Card("name","word", "translation", "sentence", 55))
-print(myTree.findMin(root))
-#root = myTree.insert(root, 10) 
-#root = myTree.insert(root, 20) 
-#root = myTree.insert(root, 30) 
-#root = myTree.insert(root, 40) 
-#root = myTree.insert(root, 50) 
-#root = myTree.insert(root, 25) 
+#root = myTree.insert(root, card.Card("name","word", "translation", "sentence", 30))
+#root = myTree.insert(root, card.Card("name","word", "translation", "sentence", 10))
+#root = myTree.insert(root,  card.Card("name","word", "translation", "sentence", 60))
+#root = myTree.insert(root, card.Card("name","word", "translation", "sentence", 50))
+#root = myTree.insert(root, card.Card("name","word", "translation", "sentence", 65))
+#root = myTree.insert(root,  card.Card("name","word", "translation", "sentence", 55))
+#print(myTree.findMin(root)) 
 #myTree.preOrder(root)
